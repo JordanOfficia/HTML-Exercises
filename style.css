@@ -1,0 +1,64 @@
+*{
+   Margin: 0;
+   Padding: 0;
+   font-family: 'Beau Rivage', cursive;
+ 
+
+}
+.header{
+          min-height: 100vh;
+          width: 100%;
+          background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/jordan.png);
+ 
+background-position: center;
+background-size: cover;
+position: relative;
+
+}
+ Nav{
+      Display: flex; 
+      Padding: 2% 6%;
+      Justify-content: space-between;
+      Align-items: center;
+
+}
+Nav img{
+    Width: 150px;
+}
+.nav-links{
+    Flex: 1;
+    Text-align: right;
+}
+.nav-links ul li{
+    List-style: none;
+    Display: inline-block;
+    Padding: 8px 12px;
+    Position: relative;
+}
+.nav-links ul li a{
+    Color: #fff;
+    Text-decoration: none;
+    Font-size: 25px;  
+}
+.nav-links ul li::after{
+    Content: '';
+    Width: 0%;
+    Height: 2px;
+    Background: #f44336;
+    Display: block;
+    Margin: auto;
+    Transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    Width: 100%
+}
+.text-box h1{
+    color: #fff;
+    Font-size: 25px;
+    Position: relative;
+}
+.text-box p{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+}
